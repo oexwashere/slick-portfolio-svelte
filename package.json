@@ -1,5 +1,5 @@
 {
-	"name": "riadh-adrani",
+	"name": "svelte-kit",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -48,5 +48,10 @@
 	"type": "module",
 	"dependencies": {
 		"dayjs": "^1.11.10"
-	}
+	},
+	"main": "svelte.config.js",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": ""
 }
