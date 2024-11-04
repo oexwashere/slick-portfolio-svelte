@@ -72,6 +72,8 @@ const Assets = {
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
 	NextJs: a('nextjs.svg'),
+	Linux: a('linux.svg'),
+	Apple : a('apple.svg'),
 };
 
 export default Assets;
