@@ -1,4 +1,4 @@
-import{A as n}from"./UIcon.e7e058ef.js";function m(t,...i){const a=Object.assign({},t);return Object.keys(a).forEach(s=>{i.includes(s)&&delete a[s]}),a}const d=`# Svelte
+import{A as n}from"./UIcon.267c7440.js";function m(t,...i){const a=Object.assign({},t);return Object.keys(a).forEach(s=>{i.includes(s)&&delete a[s]}),a}const d=`# Svelte
 
 ---
 
