@@ -1,7 +1,7 @@
-import Assets from './assets';
-import type { Skill, SkillCategory } from '../types';
-import svelte from '../md/svelte.md?raw';
 import { omit, type StringWithAutoComplete } from '@riadh-adrani/utils';
+import svelte from '../md/svelte.md?raw';
+import type { Skill, SkillCategory } from '../types';
+import Assets from './assets';
 
 const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCategory<S> => data;
 
@@ -17,8 +17,8 @@ const categories = [
 	defineSkillCategory({ name: 'Dev Tools', slug: 'devtools' }),
 	defineSkillCategory({ name: 'Markup & Style', slug: 'markup-style' }),
 	defineSkillCategory({ name: 'Design', slug: 'design' }),
-	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' })
-	defineSkillCategory({ name: 'Certifications', slug: 'certs' })
+	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' }), // Add comma here
+	defineSkillCategory({ name: 'Certifications', slug: 'certs' }), // No comma needed here
 ] as const;
 
 const defineSkill = <S extends string>(
