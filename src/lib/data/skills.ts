@@ -142,6 +142,14 @@ export const items = [
 		logo: Assets.Apple,
 		name: 'Apple',
 		category: 'os'
+	}),	
+	defineSkill({
+		slug: 'tailwind',
+		color: 'cyan',
+		description: '', // Add description here
+		logo: Assets.Tailwind,
+		name: 'Tailwind',
+		category: 'framework'
 	}),		
 ] as const;
 
