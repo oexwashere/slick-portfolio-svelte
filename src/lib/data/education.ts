@@ -23,9 +23,9 @@ export const items: Array<Education> = [
 		organization: 'Oak Grove High School',
 		period: { from: new Date(2014, 1, 1), to: new Date(2018, 5, 20) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
+		slug: 'dummy-education-item-2',
 		subjects: [ 'Math', 'Algebra', 'English', 'Adobe', 'Microsoft Office']
-	},	
+	}
 ];
 
 export const title = 'Education';
