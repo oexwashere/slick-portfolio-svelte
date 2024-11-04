@@ -14,6 +14,18 @@ export const items: Array<Education> = [
 		slug: 'dummy-education-item',
 		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English', 'Networking', 'Security']
 	},
+	{
+		degree: 'High School Diploma',
+		description: '',
+		location: 'Bessemer, USA',
+		logo: Assets.Unknown,
+		name: '',
+		organization: 'Oak Grove High School',
+		period: { from: new Date(2014, 1, 1), to: new Date(2018, 5, 20) },
+		shortDescription: '',
+		slug: 'dummy-education-item',
+		subjects: [ 'Math', 'Algebra', 'English', 'Adobe', 'Microsoft Office']
+	},	
 ];
 
 export const title = 'Education';
